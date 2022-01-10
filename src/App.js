@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import RenderInput from './RenderInput';
 import FrameworkList from './FrameworkList';
+import MockServer from './MockServer';
 import './App.css';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <FrameworkList
           frameworks={data}
         />
+        <MockServer/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
